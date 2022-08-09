@@ -62,10 +62,73 @@
     height: 450px;
     border-radius: 50%;
 }
-
 #about{
     display: flex;
-    width: 100%;
-    height: 100%;
-    background-color: aquamarine;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
 }
+#about p{
+    text-align: center;
+    padding: 40px;
+    margin: 0 auto;
+    width: 60%;
+    border: 2px solid red;
+    border-radius: 40px;
+}
+
+#service-head{
+    text-align: center;
+}
+#services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1100px) {
+    #heading-1{
+        text-align: center;
+        margin: 0 auto;
+        font-size:5rem;
+        z-index: 2;
+        display: inline;
+        background-color: aqua;
+    }
+    #heading-2{
+        position: absolute;
+        top: 400px;
+        left: 52px;
+        z-index: 2;
+        display: inline;
+        background-color: aqua;
+    }
+    #btn{
+        background-color: white;
+        position: absolute;
+        top: 65%;
+        left: 25%;
+        z-index: 2;
+        border: 1px solid black;
+        border-radius: 2px;
+    }
+  
+    #head-image{
+        /* display: none; */
+        position: absolute;
+        right: 30px;
+        top: 150px;
+        width: 450px;
+        height: 450px;
+        border-radius: 50%;
+    }
+  }
