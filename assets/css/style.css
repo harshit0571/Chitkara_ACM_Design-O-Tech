@@ -3,10 +3,11 @@
 *{
     padding: 0%;
     margin: 0%;
-    background-color: #F5F5F5;
+    background-color:#F7ECDE;
+    font-family: 'Nunito', sans-serif;
+    /* background-color: rgb(122, 255, 255) */
+    color: #54BAB9;
 }
-
-
 #head{
     top: 1px;
     bottom: 0;
@@ -14,7 +15,7 @@
     width: 100%;
     height: 100vh;
     display: flex;
-    background-color: aqua;
+    /* background-color: rgb(122, 255, 255); */
 }
 #main-head{
     display: flex;
@@ -26,7 +27,7 @@
     font-size: 110px;
     z-index: 2;
     display: inline;
-    background-color: aqua;
+    /* background-color: rgb(122, 255, 255); */
 }
 #heading-2{
     position: absolute;
@@ -34,15 +35,15 @@
     left: 52px;
     z-index: 2;
     display: inline;
-    background-color: aqua;
+    /* background-color:rgb(122, 255, 255); */
 }
 #btn{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     position: absolute;
     top: 65%;
     left: 50px;
     z-index: 2;
-    background-color: aqua;
+    /* background-color: rgb(122, 255, 255); */
 }
 #explore{
     font-size: 30px;
@@ -69,27 +70,115 @@
     flex-direction: column;
 
 }
+
+
+
+
 #about p{
-    text-align: center;
+    /* text-align: center; */
     padding: 40px;
     margin: 0 auto;
     width: 60%;
-    border: 2px solid red;
-    border-radius: 40px;
+    color: #54BAB9;
+    border : 2px solid  #54BAB9;
+    border-radius: 10px;
+    background-color: #F7ECDE ;
 }
 
-#service-head{
-    text-align: center;
+#about p:hover{
+    background-color:#54BAB9 ;
+    color: #F7ECDE;
+
 }
+
+.about-head{
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#service-one{
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+}
+
 #services{
+
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+#services div{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#services img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
 }
 
 
 
 
+
+
+
+
+#ben-head{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+#ben-p{
+    text-align: center;
+    padding: 30px;
+    width: 90%;
+    margin: 0 auto;
+    color: #54BAB9;
+    border : 2px solid  #54BAB9;
+    border-radius: 10px;
+    background-color: #F7ECDE ;
+    font-size: 25px;
+}
+
+#ben-p:hover{
+    background-color:#54BAB9 ;
+    color: #F7ECDE;
+
+}
+
+
+
+#footer-text{
+    font-size:30px;
+  }
+  a{
+    text-decoration: none;
+  }
+  #data1 ul{
+  display: inline;
+text-align: center;
+  }
+  #data2{
+ 
+    display: inline;
+    text-align: center;
+  }
 
 
 
@@ -125,7 +214,9 @@
     #head-image{
         /* display: none; */
         position: absolute;
-        right: 30px;
+        width: 80px;
+        height: 100px;
+        right: 10px;
         top: 150px;
         width: 450px;
         height: 450px;
