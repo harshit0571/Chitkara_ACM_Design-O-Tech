@@ -6,11 +6,66 @@
     background-color: #F5F5F5;
 }
 
-header{
+
+#head{
+    top: 1px;
+    bottom: 0;
+    z-index: 0;
     width: 100%;
-    height:500px;
+    height: 100vh;
     display: flex;
-    background-color: aqua;  
+    background-color: aqua;
+}
+#main-head{
+    display: flex;
+}
+#heading-1{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    font-size: 110px;
+    z-index: 2;
+    display: inline;
+    background-color: aqua;
+}
+#heading-2{
+    position: absolute;
+    top: 400px;
+    left: 52px;
+    z-index: 2;
+    display: inline;
+    background-color: aqua;
+}
+#btn{
+    background-color: aliceblue;
+    position: absolute;
+    top: 65%;
+    left: 50px;
+    z-index: 2;
+    background-color: aqua;
+}
+#explore{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+#btn div{
+
+    padding: 20px;
+    border: 1px solid black;
+}
+#head-image{
+    position: absolute;
+    right: 30px;
+    top: 150px;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
 }
 
-
+#about{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
